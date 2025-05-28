@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo: Informática e Matemática</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Interativo: Informática e Matemática</h1>
+    </header>
+    <main>
+        <section id="quiz-container" class="quiz">
+            <div id="timer">30s</div>
+            <h2 id="question-text">Pergunta será exibida aqui</h2>
+            <div id="options-container" class="options">
+                <div class="option-column">
+                    <button class="option" id="option-a">A: Opção A</button>
+                    <button class="option" id="option-c">C: Opção C</button>
+                </div>
+                <div class="option-column">
+                    <button class="option" id="option-b">B: Opção B</button>
+                    <button class="option" id="option-d">D: Opção D</button>
+                </div>
+            </div>
+            <button id="next-button" onclick="nextQuestion()">Próxima</button>
+        </section>
+        <section id="result-container" class="result hidden">
+            <h2>Resultado</h2>
+            <p id="score-text">Sua pontuação será exibida aqui</p>
+            <button onclick="restartQuiz()">Reiniciar</button>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
