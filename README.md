@@ -22,13 +22,8 @@ README.md: Este arquivo.
 
 Como Executar
 
-Clone o repositório:git clone <URL_DO_REPOSITORIO>
+Clone o repositório:git clone https://github.com/shelton-cpu/quiz-interativo.git 
 
-
-Abra a pasta do projeto no VS Code.
-Instale a extensão Live Server no VS Code.
-Clique com o botão direito em index.html e selecione "Open with Live Server".
-O quiz será aberto no navegador padrão.
 
 Requisitos
 
@@ -39,35 +34,22 @@ Conexão local para carregar a imagem de fundo.
 Contribuições dos Alunos
 O projeto foi desenvolvido por um grupo de alunos, com as tarefas divididas da seguinte forma:
 
-Aluno 1:
-
 Estrutura inicial do HTML, definindo a semântica (<header>, <main>, <section>).
 Organização das opções em duas colunas verticais (A/C e B/D).
 Configuração inicial do repositório GitHub e commits.
 
 
-Aluno 2:
-
 Desenvolvimento do CSS com Flexbox para o layout responsivo.
 Estilização da imagem de fundo, temporizador e feedback visual (verde para correto, vermelho para incorreto).
 Ajustes de design para legibilidade e responsividade em dispositivos móveis.
-
-
-Aluno 3:
 
 Implementação da lógica principal do JavaScript (script.js).
 Configuração do temporizador de 30 segundos, com correção para evitar números negativos.
 Adição da funcionalidade de vibração (navigator.vibrate) para respostas incorretas.
 
-
-Aluno 4:
-
 Criação do banco de 40 perguntas (13 de Informática, 13 de Matemática, 14 de Lógica de Programação).
 Testes das perguntas para garantir clareza e correção das respostas.
 Ajustes na pontuação (0,5 por resposta, máximo 20 pontos) e localStorage.
-
-
-Aluno 5:
 
 Implementação do avanço automático para a próxima pergunta ao acertar.
 Testes de funcionalidade (temporizador, vibração, pontuação, responsividade).
